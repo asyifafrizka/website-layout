@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fffafc;
+}
+
+/* Header */
+#header {
+    background-color: #ffd6e8; /* pastel pink */
+    color: #5a2a45;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navbar */
+#navbar {
+    background-color: #ffeaa7; /* pastel yellow */
+    color: #6c4f14;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Konten Utama */
+#content {
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+    background-color: #fdf6ff;
+    width: 100%;
+}
+
+/* Kolom Konten */
+#left-content,
+#main-content,
+#right-content {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    font-weight: bold;
+}
+
+#left-content {
+    background-color: #a0e7e5; /* pastel turquoise */
+    color: #004d4d;
+    flex: 1;
+    width: 20%;
+    height: 250px;
+}
+
+#main-content {
+    background-color: #b4f8c8; /* pastel green */
+    color: #2d6a4f;
+    flex: 2;
+    width: 60%;
+    height: 250px;
+}
+
+#right-content {
+    background-color: #fbc4ab; /* pastel peach */
+    color: #663c27;
+    flex: 1;
+    width: 20%;
+    height: 250px;
+}
+
+/* Footer */
+#footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d0cde1; /* pastel lavender */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-box {
+    background-color: #fef6ff; /* putih pink soft */
+    color: #5c5470;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    font-weight: bold;
+}
